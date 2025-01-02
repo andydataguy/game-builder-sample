@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "game-builder-sample"
+version = "0.1.0"
+description = "Super basic multi-agent implementation with auto error-handling"
+authors = ["Anand Houston <anand@anandhouston.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+anthropic = "^0.42.0"
+termcolor = "^2.5.0"
+python-dotenv = "^1.0.1"
+pygame = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
